@@ -345,14 +345,23 @@ body._lock{
    border-radius: 4px;
    color: #FFFFFF;
    display: inline-block;
+   transition: 0.3s all ease;
+}
+.button_green:hover {
+   background: #4c8a0a;
 }
 .star-wars__game {
    padding: 8px 20px;
    color: #FFFFFF;
 }
 .button_grey {
-   background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+   background: #686C6F;
    border-radius: 4px;
+   transition: 0.3s all ease;
+   display: inline-block;
+}
+.button_grey:hover {
+   background:#323435;
 }
 
 span.swiper-pagination-bullet{
@@ -486,19 +495,12 @@ div.swiper-button-next{
    padding: 8px 20px;
    margin-right: 13px;
 }
-.button_green {
-   background: #8DD83D;
-   border-radius: 4px;
-   color: #FFFFFF;
-}
+
 .forza__game {
    padding: 8px 20px;
    color: #FFFFFF;
 }
-.button_grey {
-   background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
-   border-radius: 4px;
-}
+
 
 span.swiper-pagination-bullet{
    width: 10px;
@@ -630,19 +632,12 @@ div.swiper-button-next{
    padding: 8px 20px;
    margin-right: 13px;
 }
-.button_green {
-   background: #8DD83D;
-   border-radius: 4px;
-   color: #FFFFFF;
-}
+
 .halo-5__game {
    padding: 8px 20px;
    color: #FFFFFF;
 }
-.button_grey {
-   background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
-   border-radius: 4px;
-}
+
 
 span.swiper-pagination-bullet{
    width: 10px;
@@ -937,9 +932,12 @@ div.swiper_exlusive-wrapper {
 }
 .exlusive__card-button {
    
-   display: block;
+   display: inline-block;
    padding: 20px 0;
    text-align: center;
+}
+.exlusive__item:hover .exlusive__card-button:hover {
+   background: #4c8a0a;
 }
 
 .exlusive__button {
@@ -954,6 +952,7 @@ div.swiper_exlusive-wrapper {
    left: 50%;
    
 }
+
 .swiper_exlusive-button-prev {
    width: 21px;
    height: 21px;
